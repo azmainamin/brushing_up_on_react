@@ -52,7 +52,7 @@ ReactDOM.render(<App />, document.getElementById('app'));
 -   Easiest way to get started with React. Comes with all the tools necessary, including webpack, Babel etc. 
 -   Follow the steps from [here](https://github.com/facebook/create-react-app).
   
-## Babel
+## [Babel](https://babeljs.io/docs/en/)
 
 Problem: You want to write newer JS i.e. es6 but not all browser can compile and run the newer syntax and features. 
 
@@ -108,7 +108,7 @@ module.exports = { presets, plugins };
 ```
 *Code from [here](https://www.sentinelstand.com/article/create-react-app-from-scratch-with-webpack-and-babel)*
 
-## Webpack
+## [Webpack](https://webpack.js.org/concepts/)
 
 Bundles all of your front end resources into one or more modules so that they can comsumed in production. Webpack is not restricted to just bundling resources. It minimizes files, transpiles and adds polyfills using babel, preprocesses and compiles css modules like SASS, etc. 
 
@@ -139,3 +139,5 @@ The other option is to define two webpack config files: one for dev and the othe
   },
   ...
 ```
+
+To learn more, you can visit [this page](https://www.sentinelstand.com/article/create-react-app-from-scratch-with-webpack-and-babel).
