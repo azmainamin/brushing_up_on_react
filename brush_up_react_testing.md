@@ -1,5 +1,12 @@
-# Testing React
+# Testing React <!-- omit in toc -->
+- [Intro](#intro)
+- [Basic test (test state and props)](#basic-test-test-state-and-props)
+- [Testing user interaction](#testing-user-interaction)
+- [Testing whether a class method is called or not](#testing-whether-a-class-method-is-called-or-not)
+- [Things to remember](#things-to-remember)
 
+## Intro
+  
 I am assuming you already have a testing enviroment set up with all the tools installed: karma + webpack and enzyme. 
 
 If not, these are good resources:
