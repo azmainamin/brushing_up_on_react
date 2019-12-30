@@ -1,4 +1,10 @@
-# Brush up your React Skills  <!-- omit in toc -->
+# React Core  
+  - [Dissecting the building block of React: A Component](#dissecting-the-building-block-of-react-a-component)
+  - [Defining a component](#defining-a-component)
+  - [Using a component](#using-a-component)
+  - [Types of component](#types-of-component)
+    - [Functional Component](#functional-component)
+  - [Component Lifecycle](#component-lifecycle)
 
 ## Dissecting the building block of React: A Component
 
@@ -79,4 +85,10 @@ function Header(props) {
 Functional components are a bit more performant, easy to read and test. If you do not need state for your component, then go with functional components. To learn more, [click here](https://programmingwithmosh.com/react/react-functional-components/). 
 
 
-### 
+### Component Lifecycle
+
+Lifecycle methods are invoked during different lifecylce events of a component. If you want your component to execute some logic during different lifecycle events, you can add them to the appropriate lifecycle method.
+
+![react_lifecycle_events](lifecycle_cheat_sheet.PNG)
+*Fig 1: React Lifecyle. Image taken from reactjs.org*
+
