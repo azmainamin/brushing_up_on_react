@@ -70,7 +70,7 @@ export default Header;
 
 The example above is a React *class component* i.e. you create a class object. The other type of component is called a functional component, where you define the component as a function. 
 
-#### Functional Component
+#### [Functional Component](https://programmingwithmosh.com/react/react-functional-components/)
 ```
 // Style 1
 const Header = (props) => (<h1>{props.headerTitle}</h1>); // es6 automatically returns the h1 without the return keyword.
@@ -85,7 +85,7 @@ function Header(props) {
 Functional components are a bit more performant, easy to read and test. If you do not need state for your component, then go with functional components. To learn more, [click here](https://programmingwithmosh.com/react/react-functional-components/). 
 
 
-### Component Lifecycle
+### [Component Lifecycle](https://reactjs.org/docs/react-component.html)
 
 Lifecycle methods are invoked during different lifecylce events of a component. If you want your component to execute some logic during different lifecycle events, you can add them to the appropriate lifecycle method.
 
