@@ -12,7 +12,7 @@
     ``` npm init -y```
 -   Install react and react-dom: 
     ``` npm install react react-dom ```
--   You will need atleast two files: a js file for your react component and a html file to bootstrap your react components.
+-   You will need atleast two files: a `js` file for your react component and a `html` file to bootstrap your react components.
 ```
 // index.js
 
@@ -44,7 +44,7 @@ ReactDOM.render(<App />, document.getElementById('app'));
 ```
 *Code taken from: https://dev.to/vish448/create-react-project-without-create-react-app-3goh*
 
--   When the code is built, the js file will be run and ReactDOM.render() will inject React code into index.html.
+-   When the code is built, the `js` file will be run and ReactDOM.render() will inject React code into index.html.
 - We can use webpack to bundle the code and babel to transpile JSX.  
   
 ## The easy way - with create-react-app
@@ -63,7 +63,7 @@ Solution: Babel transpiles newer JS into older ones so that it works with all br
 -   **preset**: an array of plugins used to support a particular JavaScript language feature.
 -   **@babel/preset-env**: a “smart” preset that allows us to use the latest JavaScript without needing to manage which specific syntax transformations or polyfills are needed by your target environments.
 -   **target enviroments**: the browsers you want babel to transpile to
--   **browserlist**: roject that lets us specify target environments using queries. Babel recommends putting the queries in a .browserslistrc file.
+-   **browserlist**: Project that lets us specify target environments using queries. Babel recommends putting the queries in a .browserslistrc file.
 
 ```
 # Browsers we support
@@ -110,7 +110,7 @@ module.exports = { presets, plugins };
 
 ## [Webpack](https://webpack.js.org/concepts/)
 
-Bundles all of your front end resources into one or more modules so that they can comsumed in production. Webpack is not restricted to just bundling resources. It minimizes files, transpiles and adds polyfills using babel, preprocesses and compiles css modules like SASS, etc. 
+Bundles all of your front end resources into one or more modules so that they can consumed in production. Webpack is not restricted to just bundling resources. It minimizes files, transpiles and adds polyfills using babel, preprocesses and compiles css modules like SASS, etc. 
 
 We pass an entry file to webpack and from there it traverses all the dependencies (probably recursively) from file to file. That's how webpack knows which resources it needs to include in the bundle.
 

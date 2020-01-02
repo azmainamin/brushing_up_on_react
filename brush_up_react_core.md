@@ -47,7 +47,7 @@ export default Button; // [7]
 1. We pass data to a React component using props. In our example, the parent component of Button i.e. whoever is rendering the <Button \/> component can pass in the button name using the buttonName prop. A component can hold data about itself in state. This is an object that describes the state of the component at that point of time.  To learn more about state vs props [click here](https://flaviocopes.com/react-state-vs-props/).
 2. If we are passing in a function to another component, we have to bind 'this' to the function, so that when it gets called, it uses the correct 'this' context. For our example, since handleClick will be invoked by <button \/> html tag, we need to bind the 'this' context of our Button class to the function. To learn more, [click here](https://codeburst.io/binding-functions-in-react-b168d2d006cb).
 3. We can define class methods for our own use. This is a good practice since it allows us to test individual bits of code by themselves.
-4. Here we are updating the state for the class. Everytime the state changes, the component re renders.
+4. Here we are updating the state for the class. Every time the state changes, the component re renders.
 5. Render is the only method you have to implement for every React component. This is what gets called when a component is rendered/invoked and in our case, outputs the html.
 6. Our Button class ultimately will output this bit of html and paint the DOM with it. We are also rendering the button name from the passed in prop. 
 7. We have to export our component so that we can use it. Whoever uses it will import this class. 
@@ -87,7 +87,7 @@ Functional components are a bit more performant, easy to read and test. If you d
 
 ### [Component Lifecycle](https://reactjs.org/docs/react-component.html)
 
-Lifecycle methods are invoked during different lifecylce events of a component. If you want your component to execute some logic during different lifecycle events, you can add them to the appropriate lifecycle method.
+Lifecycle methods are invoked during different life cycle events of a component. If you want your component to execute some logic during different lifecycle events, you can add them to the appropriate lifecycle method.
 
 ![react_lifecycle_events](lifecycle_cheat_sheet.PNG)
 *Fig 1: React Lifecyle. Image taken from reactjs.org*

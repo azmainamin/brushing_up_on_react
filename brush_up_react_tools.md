@@ -13,7 +13,7 @@ Follow the steps from [here](https://github.com/facebook/create-react-app).
 
 ## React Dev Tools
 
-This is a must have for debugging React. React dev tools allows you to traverse your components, look at their props and states in real time, give perforomance suggestions etc.
+This is a must have for debugging React. React dev tools allows you to traverse your components, look at their props and states in real time, give performance suggestions etc.
 
 To learn more, visit their [blog](https://blog.logrocket.com/debug-react-applications-with-the-new-react-devtools/).
 
