@@ -141,3 +141,9 @@ The other option is to define two webpack config files: one for dev and the othe
 ```
 
 To learn more, you can visit [this page](https://www.sentinelstand.com/article/create-react-app-from-scratch-with-webpack-and-babel).
+
+<div style="display: flex; justify-content:space-between">
+  <a href="./brush_up_react_core.md"><p style="text-align: left;">Previous: React Component</p>
+
+  <a href="./brush_up_running_react"><p style="text-align: right;">Next: Testing React</p></a>
+</div>

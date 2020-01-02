@@ -92,3 +92,5 @@ Lifecycle methods are invoked during different lifecylce events of a component. 
 ![react_lifecycle_events](lifecycle_cheat_sheet.PNG)
 *Fig 1: React Lifecyle. Image taken from reactjs.org*
 
+<a><p style="text-align: right;">[Next: Running React](brush_up_running_react.md)</p></a>
+

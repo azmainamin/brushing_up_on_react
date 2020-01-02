@@ -79,3 +79,9 @@ it("increase numOfClick by 1 when button is clicked", () => {
 - Each `it` block should test one piece of funtionality.
 - Use `beforeAll()` and `beforeEach()`.
 - `shallow` rendering will get the job done 90% of the time. But, there are times when you need to use `mount` to do a full mounting of your react component in your tests. To learn more about their differences, visit [here](https://gist.github.com/fokusferit/e4558d384e4e9cab95d04e5f35d4f913).
+
+<div style="display: flex; justify-content:space-between">
+  <a href="./brush_up_running_react.md"><p style="text-align: left;">Previous: Running React</p>
+
+  <a href="./brush_up_react_best_practices"><p style="text-align: right;">Next: Best Practices</p></a>
+</div>
