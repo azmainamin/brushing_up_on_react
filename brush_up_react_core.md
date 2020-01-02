@@ -68,7 +68,7 @@ export default Header;
 
 ### Types of component
 
-The example above is a React *class component* i.e. you create a class object. The other type of component is called a functional component, where you define the component as a function. 
+The example above is a React **class component** i.e. you create a class object. The other type of component is called a functional component, where you define the component as a function. 
 
 #### [Functional Component](https://programmingwithmosh.com/react/react-functional-components/)
 ```
