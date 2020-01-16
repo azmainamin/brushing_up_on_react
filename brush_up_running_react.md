@@ -145,5 +145,5 @@ To learn more, you can visit [this page](https://www.sentinelstand.com/article/c
 <div style="display: flex; justify-content:space-between">
   <a href="./brush_up_react_core.md"><p style="text-align: left;">Previous: React Component</p>
 
-  <a href="./brush_up_running_react.md"><p style="text-align: right;">Next: Testing React</p></a>
+  <a href="./brush_up_testing_react.md"><p style="text-align: right;">Next: Testing React</p></a>
 </div>
