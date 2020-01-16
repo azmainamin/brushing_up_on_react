@@ -11,7 +11,7 @@ This is designed for people who are familiar with React and front end build tool
 
 1. [React Core](brush_up_react_core.md)
 2. [Running React](brush_up_running_react.md)
-3. [Testing React](brush_up_testing_react)
-4. [Best Practices](brush_up_react_best_practices)
-5. [Tools](brush_up_react_tools)
+3. [Testing React](brush_up_testing_react.md)
+4. [Best Practices](brush_up_react_best_practices.md)
+5. [Tools](brush_up_react_tools.md)
 
