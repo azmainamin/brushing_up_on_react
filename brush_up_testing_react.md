@@ -83,5 +83,5 @@ it("increase numOfClick by 1 when button is clicked", () => {
 <div style="display: flex; justify-content:space-between">
   <a href="./brush_up_running_react.md"><p style="text-align: left;">Previous: Running React</p>
 
-  <a href="./brush_up_react_best_practices"><p style="text-align: right;">Next: Best Practices</p></a>
+  <a href="./brush_up_react_best_practices.md"><p style="text-align: right;">Next: Best Practices</p></a>
 </div>
